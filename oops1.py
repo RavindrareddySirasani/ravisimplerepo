@@ -301,12 +301,12 @@ class Student(Person):
       self.lname=lname
     
 
-  def displayname(self):
+  def display(self):
       print(self.fname,self.lname)
 
 x = Student("Mike", "Olsen")
 x.printname()
-x.displayname()
+x.display()
 
 
 
